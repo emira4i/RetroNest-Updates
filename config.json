@@ -3,12 +3,29 @@
   "announcements": [
     {
       "id": "launch-2",
-      "title": {"en": "RetroNest is out!", "tr": "RetroNest yayında!"},
-      "body": {"en": "Thanks for playing.", "tr": "Oynadığın için teşekkürler."},
+      "title": {
+        "en": "RetroNest is out!",
+        "tr": "RetroNest yayında!"
+      },
+      "body": {
+        "en": "Thanks for playing.",
+        "tr": "Oynadığın için teşekkürler."
+      },
       "audience": "all"
     }
   ],
   "links": [
-    {"id": "telegram", "kind": "telegram", "url": "https://t.me/retronestapp", "label": {"en": "Telegram channel", "tr": "Telegram kanalı"}}
-  ]
+    {
+      "id": "telegram",
+      "kind": "telegram",
+      "url": "https://t.me/retronestapp",
+      "label": {
+        "en": "Telegram channel",
+        "tr": "Telegram kanalı"
+      }
+    }
+  ],
+  "features": {
+    "coverArt": false
+  }
 }
