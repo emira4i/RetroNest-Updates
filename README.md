@@ -35,10 +35,3 @@ Served from `https://emira4i.github.io/RetroNest-Updates/`.
 }
 ```
 
-- `version` must stay `1`; the app ignores a file with another version.
-- Only `id`, `title` and `body` are required for an announcement. `audience` is `all`, `free` or `premium`.
-- An announcement the user dismissed stays dismissed; use a new `id` to show a new one.
-- Links must be `https` and point to a host the app allows: this site, github.com, t.me, telegram.me, discord.gg, discord.com, instagram.com, tiktok.com, youtube.com, youtu.be, play.google.com.
-- Optional switch: adding `"features": {"coverArt": false}` at the top level turns downloaded cover art off in
-  every installed app at its next start. Remove the line (or set it to `true`) to turn it back on.
-- The file must stay valid JSON: a broken file is ignored and the app keeps its last good copy.
